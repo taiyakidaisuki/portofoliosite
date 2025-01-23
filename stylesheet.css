@@ -18,16 +18,6 @@ section{
 }
 
 
-/* トップ画面の下の四角　中の文字 */
-.topback {
-  display:inline-block;
-  background-color: #C6E8F3;
-  height: 542px;
-  width: 730px;
-  text-align: center;
-  margin-bottom:10px;
-  color:white;
-}
 
 /* トップ画面下の文章 */
 /* 余白 */
@@ -78,15 +68,12 @@ h2 {
   justify-content: center;
   width: 800px;
   margin: 0 auto; /* 要素自体を中央配置 */
-  padding: 25px; 
+  padding-bottom: 100px;
 }
 
 
 .exp {
-  width: 400px; /* 折り返しを行う幅を指定 */
   text-align: left; /* テキストを左揃え */
-  padding-left: 20px;
-  padding-right:20px;
   position: relative;
 }
 
@@ -136,7 +123,6 @@ h2 {
 /* 文章 */
 .exp2{
   text-align: left; /* テキストを左揃え */
-  margin-left: 30px;
 }
 
 
@@ -169,5 +155,75 @@ padding-bottom: 10%;
 
 .exp3 p {
   padding-bottom:25px;
+  
+}
+
+
+
+/* スマホ用 */
+
+
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px; /* 全体のフォントサイズを小さく調整 */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .topback > img{
+    width: 100%; /* 幅を画面幅に合わせる */
+    height: auto; /* 高さは自動調整 */
+  }    
+  
+
+
+  .intoroduce, .content, .content2 {
+    width: 100%; /* 全体の幅を画面幅に合わせる */
+  }
+
+.content {
+  padding-bottom: 40px;
+}
+
+  .exp {
+    width: 100%; /* 要素を画面幅に合わせる */
+    padding: 10px; /* 余白を調整 */
+  }
+
+  .exp p{
+    padding-bottom: 30px;
+  }
+
+  #top p {
+    font-size: 18px; /* 説明文のフォントサイズを調整 */
+    text-align: center; /* モバイルでは中央揃えに変更 */
+  }
+
+  h2 {
+    font-size: 30px; /* 見出しのサイズを小さくする */
+  }
+
+  .button {
+    font-size: 14px; /* ボタンのフォントサイズを小さく */
+    padding: 8px 20px; /* ボタンの余白を縮小 */
+  }
+
+.content,.content2{
+  display: block;
+  margin:auto;
+}
+
+.content img {
+  padding-top: 20px;
+
+}
+
+.content2 img {
+  padding-bottom: 10px;
+}
+
+
+
   
 }
