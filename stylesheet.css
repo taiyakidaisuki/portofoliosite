@@ -160,6 +160,20 @@ padding-bottom: 10%;
 
 
 
+.exp4 {
+  padding: 20px;
+}
+
+.exp4 p{
+  padding:20px;
+
+}
+
+
+
+
+
+
 /* スマホ用 */
 
 
@@ -225,10 +239,24 @@ padding-bottom: 10%;
 
 
 .exp3 {
-
   margin-left: auto;
 }
 
+.works > img{
+  width: 90%;
+  height: auto;
+}
+
+
+.exp4 {
+  padding: 10px;
+}
+
+.exp4 p{
+  padding:10px 10px 25px 10px;
+  
+
+}
 
 
   
