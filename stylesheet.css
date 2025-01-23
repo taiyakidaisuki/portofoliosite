@@ -257,7 +257,7 @@ padding-bottom: 10%;
 
 .exp4 p{
   padding:10px 10px 25px 10px;
-  width: 700px; /* 折り返しを行う幅を指定 */
+  width: 100%; /* 折り返しを行う幅を指定 */
   margin: auto;
 
 }
