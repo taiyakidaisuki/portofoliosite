@@ -1,0 +1,173 @@
+
+
+/* 全体的に中央ぞろえ */
+
+body {
+  text-align: center;
+  display: block;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+    
+}
+
+/* セクションごとに余白を入れる */
+section{
+  margin-bottom: 5%;
+}
+
+
+/* トップ画面の下の四角　中の文字 */
+.topback {
+  display:inline-block;
+  background-color: #C6E8F3;
+  height: 542px;
+  width: 730px;
+  text-align: center;
+  margin-bottom:10px;
+  color:white;
+}
+
+/* トップ画面下の文章 */
+/* 余白 */
+.kiduki {
+  margin-top: 20px;
+}
+
+/* 文字装飾 */
+/* 見出し */
+.kiduki > span{
+  color: white;
+  background-color: #95ccdb;
+  font-size: 20px;
+  padding: 5px;
+  
+}
+
+/* 説明文 */
+#top p {
+  color: gray;
+  font-size: 22px;
+  padding-top: 10px;
+  text-align: left;
+	display: inline-block;
+}
+
+/* 各項目見出し */
+h2 {
+  font-size: 40px;
+}
+
+
+/* ABOUT */
+.intoroduce {
+  width: 700px; /* 折り返しを行う幅を指定 */
+  margin: 0 auto; /* 要素自体を中央配置 */
+  text-align: left; /* テキストを左揃え */
+  line-height: 1.5; /* 行間を調整（任意） */
+}
+
+
+
+
+/* WORKS */
+/* 中央に横並びで配置 */
+.content {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto; /* 要素自体を中央配置 */
+  padding: 25px; 
+}
+
+
+.exp {
+  width: 400px; /* 折り返しを行う幅を指定 */
+  text-align: left; /* テキストを左揃え */
+  padding-left: 20px;
+  padding-right:20px;
+  position: relative;
+}
+
+
+/* 見出しを太字にする */
+.title{
+  font-weight:bold ;
+}
+/* 作品見出しの■色 */
+.midasi1 {
+  color: #B4DEEB;
+}
+
+/* 詳細ボタン */
+.button {
+  background-color: #C6E8F3;
+  box-shadow:  1px 1px 3px 0.5px gray ;
+  padding:10px 30px 10px 30px;
+  text-align: center; 
+  position: absolute;
+  bottom: 0;
+
+}
+
+
+/* SKILLS */
+/* イメージと説明文を横並びにする */
+.content2{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; /* 要素自体を中央配置 */
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* 見出し */
+/* ■の色 */
+.midasi2{
+  color: #EBB4C2;
+}
+
+.skill{
+  font-size: 20px;
+}
+
+/* 文章 */
+.exp2{
+  text-align: left; /* テキストを左揃え */
+  margin-left: 30px;
+}
+
+
+
+/* WORKS */
+
+/* 画像一覧下の余白 */
+.worksimg{
+padding-bottom: 10%;
+}
+
+/* 各画像余白 */
+.works1 {
+  margin-bottom: 2%;
+}
+
+
+/* 項目 */
+.heading {
+  background-color: #1273A4;
+  padding:10px 30px 10px 30px;
+  text-align: center; 
+  color: white;
+}
+
+.exp3 {
+  width: 650px;
+  margin: auto;
+}
+
+.exp3 p {
+  padding-bottom:25px;
+  
+}
